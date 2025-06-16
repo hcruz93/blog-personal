@@ -1,0 +1,23 @@
+# Node modules (en caso de usar herramientas como npm para desarrollo)
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales del editor
+*.log
+*.tmp
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# Archivos de configuración personal
+*.sublime-workspace
+*.sublime-project
+
+# Salidas de herramientas de construcción (por si usas herramientas como Gulp, Vite, etc.)
+dist/
+build/
