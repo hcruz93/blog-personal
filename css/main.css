@@ -131,3 +131,54 @@ body{
 .main-container__link:hover{
   background-color: #eb253c;
 }
+
+/*       PAGINA DE BLOGS
+=====================================*/
+
+.blogs-main{
+  display: grid;
+}
+
+.news{
+  background-color: #e6e9ed;
+  padding: 10px 80px 40px;
+}
+
+.news-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+
+}
+
+.news-content img{
+  grid-column: 1;
+  width: 85%;
+  display: inline-block;
+  margin: 10px 0;
+
+}
+
+.news-info{
+  grid-column: 2;
+}
+
+.news-info h2{
+  margin-top: 20px;
+}
+
+.news-info p{
+  margin: 30px 0;
+}
+
+/*       BOTON DE BLOGS
+=====================================*/
+
+.blogs-btn{
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #e6162e;
+  padding: 10px 15px;
+  font-size: 14px;
+
+}
